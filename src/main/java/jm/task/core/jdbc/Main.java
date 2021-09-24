@@ -10,8 +10,8 @@ public class Main {
     private static final UserServiceImpl userService = new UserServiceImpl();
 
     public static void main(String[] args) {
-        User user1 = new User("Tom", "Harris", (byte) 25);
-        User user2 = new User("Mos", "Harris", (byte) 15);
+        User user1 = new User("Mile", "Harris", (byte) 25);
+        User user2 = new User("Joun", "Harris", (byte) 15);
 
         userService.createUsersTable(); // метод работает (1)
         saveUserAindSout(user1); // метод работает (2)
